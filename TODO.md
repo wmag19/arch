@@ -1,0 +1,4 @@
+- aur helper
+- vscode
+- setup home repo backups
+- GNU Stow
