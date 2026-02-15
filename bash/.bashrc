@@ -174,7 +174,7 @@ bashrc ()
 
 declare -A pomo_options
 pomo_options["work"]="30"
-pomo_options["break"]="5"
+pomo_options["break"]="1"
 
 # Requires https://github.com/caarlos0/timer to be installed. spd-say should ship with your distro
 pomodoro () {
@@ -204,15 +204,13 @@ complete -o default -F __start_kubectl k
 
 export PATH="$HOME/go/bin:$PATH"
 
-# Kubernetes tools PATH
-export PATH="/home/will/.k8s-tools/bin:$PATH"
-# kubectl alias
-alias k='kubectl'
 # kubectl auto-completion
 source <(kubectl completion bash)
 complete -o default -F __start_kubectl k
 
 XDG_CONFIG_HOME=/home/will
+
+
 eval "$(direnv hook bash)"
 
 eval "$(/home/will/.local/bin/mise activate bash)" # added by https://mise.run/bash
@@ -222,3 +220,5 @@ complete -o default -F __start_kubectl k
 #alias ll='ls --color=auto -alF'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+export KUBE_EDITOR='code --wait'
+export EDITOR='code --wait'
