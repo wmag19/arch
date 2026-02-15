@@ -49,7 +49,7 @@
 # resize-overlay-duration = 4s 200ms
 font-family = "Noto Sans Mono"
 window-decoration = false
-background-opacity = 0.80
+background-opacity = 0.97
 background=#1a1c1c
 theme = catpuccin-mocha.conf
 keybind=ctrl+shift+w=close_window
