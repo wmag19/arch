@@ -1,0 +1,14 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Escape",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "l",
+    ): System(LockScreen),
+}
