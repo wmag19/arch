@@ -92,11 +92,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -121,21 +116,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
+eval "$(/home/will/.local/bin/mise activate bash)" # added by https://mise.run/bash
+
 
 # --- Kubectl Auto Completion ---
 #https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#enable-shell-autocompletion
 
-# --- My Custom Aliases ---
-alias grep='grep --color=auto'
-alias k='kubectl'
-alias g='git'
-alias update='sudo apt update && sudo apt upgrade -y'
-alias c='clear'
-alias ..='cd ..'
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias ctx='kubectx'
+# kubectl auto-completion
+source <(kubectl completion bash)
+complete -o default -F __start_kubectl k
+
 # --- My Custom Functions ---
 
 mkcd ()
@@ -191,34 +181,33 @@ pomodoro () {
 }
 
 
-alias wo="pomodoro 'work'"
-alias br="pomodoro 'break'"
+
 
 # --- My Custom Path ---
 export PATH="$HOME/bin:$PATH"
-#export PATH="$HOME/tools:$PATH"
-# K8s tools directory
-#export PATH="$HOME/.k8s-tools:$PATH"
-source <(kubectl completion bash)
-complete -o default -F __start_kubectl k
-
+export KUBE_EDITOR='code --wait'
 export PATH="$HOME/go/bin:$PATH"
-
-# kubectl auto-completion
-source <(kubectl completion bash)
-complete -o default -F __start_kubectl k
+export EDITOR='code --wait'
 
 XDG_CONFIG_HOME=/home/will
 
+##Tools
+eval "$(zoxide init bash)"
 
 eval "$(direnv hook bash)"
-
-eval "$(/home/will/.local/bin/mise activate bash)" # added by https://mise.run/bash
-complete -o default -F __start_kubectl k
-
-#alias ls='ls --color=auto'
-#alias ll='ls --color=auto -alF'
-alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
-export KUBE_EDITOR='code --wait'
-export EDITOR='code --wait'
+
+# --- My Custom Aliases ---
+alias grep='grep --color=auto'
+alias k='kubectl'
+alias g='git'
+alias update='sudo apt update && sudo apt upgrade -y'
+alias c='clear'
+alias ..='cd ..'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ctx='kubectx'
+alias f='code $(fzf)'
+alias wo="pomodoro 'work'"
+alias br="pomodoro 'break'"

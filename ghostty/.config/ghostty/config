@@ -51,6 +51,6 @@ font-family = "Noto Sans Mono"
 window-decoration = false
 background-opacity = 0.80
 background=#1a1c1c
-#command=/home/anar/Music/anar/scripts/ghostty-tmux.sh
+theme = catpuccin-mocha.conf
 keybind=ctrl+shift+w=close_window
 confirm-close-surface=false
