@@ -118,6 +118,8 @@ fi
 
 eval "$(/home/will/.local/bin/mise activate bash)" # added by https://mise.run/bash
 
+#Starship configuration:
+eval "$(starship init bash)"
 
 # --- Kubectl Auto Completion ---
 #https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#enable-shell-autocompletion
