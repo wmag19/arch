@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-eval "$(/home/will/.local/bin/mise activate bash)" # added by https://mise.run/bash
+eval "$(/home/will/.local/bin/mise activate bash --shims)" # added by https://mise.run/bash
 
 #Starship configuration:
 eval "$(starship init bash)"
@@ -203,7 +203,7 @@ PS1='[\u@\h \W]\$ '
 alias grep='grep --color=auto'
 alias k='kubectl'
 alias g='git'
-alias update='sudo apt update && sudo apt upgrade -y'
+alias update='topgrade'
 alias c='clear'
 alias ..='cd ..'
 alias ll='ls -alF'

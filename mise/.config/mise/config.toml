@@ -18,3 +18,7 @@ go = "latest"
 "go:github.com/joho/godotenv/cmd/godotenv" = "latest"
 "github:caarlos0/timer" = "latest"
 "go:github.com/bootdotdev/bootdev" = "latest"
+"go:github.com/go-delve/delve/cmd/dlv" = "latest"
+aws-cli = { version = "latest", symlink_bins = "true" }
+rust = "latest"
+"cargo:topgrade" = "latest"
