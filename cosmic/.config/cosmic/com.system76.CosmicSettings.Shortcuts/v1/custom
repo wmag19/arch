@@ -1,15 +1,15 @@
 {
     (
         modifiers: [
-            Alt,
+            Super,
         ],
-        key: "l",
-    ): System(LockScreen),
+        key: "Escape",
+    ): Disable,
     (
         modifiers: [
             Super,
         ],
-        key: "Escape",
+        key: "t",
     ): Disable,
     (
         modifiers: [
@@ -19,8 +19,13 @@
     ): System(Terminal),
     (
         modifiers: [
+            Alt,
+        ],
+        key: "l",
+    ): System(LockScreen),
+    (
+        modifiers: [
             Super,
         ],
-        key: "t",
-    ): Disable,
+    ): System(AppLibrary),
 }
