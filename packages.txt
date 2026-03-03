@@ -53,8 +53,8 @@ linux-firmware
 linux-headers
 minikube
 neovim
-nmap
 obsidian
+openbsd-netcat
 openssh
 power-profiles-daemon
 ripgrep
