@@ -23,3 +23,5 @@ aws-cli = { version = "latest", symlink_bins = "true" }
 rust = "latest"
 "cargo:topgrade" = "latest"
 "go:github.com/gohugoio/hugo" = "0.155.3"
+talosctl = "latest"
+omnictl = "latest"
