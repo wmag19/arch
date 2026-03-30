@@ -39,6 +39,7 @@ fzf
 ghostty
 gimp
 git
+git-filter-repo
 github-cli
 gnome-keyring
 go
@@ -77,6 +78,7 @@ vulkan-nouveau
 vulkan-radeon
 wget
 wireless_tools
+xclip
 xdg-desktop-portal-cosmic
 xdg-user-dirs
 xdg-utils
