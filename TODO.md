@@ -33,5 +33,5 @@ Target = *
 
 [Action]
 When = PostTransaction
-Exec /bin/sh -c '/usr/bin/pacman -Qqe > /home/will/code/arch/packages.txt'
+Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/will/code/arch/packages.txt'
 ```

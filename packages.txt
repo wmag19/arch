@@ -139,8 +139,6 @@ minikube
 mkinitcpio
 modemmanager
 mtools
-nano
-nano-syntax-highlighting
 neovim
 netctl
 networkmanager
