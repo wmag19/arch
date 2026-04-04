@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-eval "$(/home/will/.local/bin/mise activate bash --shims)" # added by https://mise.run/bash
+eval "$(mise activate bash --shims)" # added by https://mise.run/bash
 
 #Starship configuration:
 eval "$(starship init bash)"

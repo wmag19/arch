@@ -109,6 +109,7 @@ intel-ucode
 iptables-nft
 iwd
 jfsutils
+kubectl
 less
 lib32-mesa
 lib32-opencl-mesa
