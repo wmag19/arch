@@ -35,3 +35,13 @@ Target = *
 When = PostTransaction
 Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/will/code/arch/packages.txt'
 ```
+
+3. Change shell:
+```fish
+chsh -s /bin/bash will
+```
+
+4. Unstow each folder e.g:
+```bash
+stow -d $HOME/code/arch -v -t $HOME hypr/
+```
