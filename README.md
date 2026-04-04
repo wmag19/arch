@@ -45,3 +45,8 @@ chsh -s /bin/bash will
 ```bash
 stow -d $HOME/code/arch -v -t $HOME hypr/
 ```
+
+5. Run mise to install tools
+```bash
+mise up
+```
