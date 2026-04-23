@@ -106,7 +106,7 @@ hwinfo
 inetutils
 intel-media-driver
 intel-ucode
-iptables-nft
+iptables
 iwd
 jfsutils
 kubectl
@@ -229,5 +229,6 @@ xorg-xwayland
 yay-bin
 yazi
 zathura
+zed
 zen-browser-bin
 zoxide
