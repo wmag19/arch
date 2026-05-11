@@ -214,3 +214,4 @@ alias f='code $(fzf)'
 alias wo="pomodoro 'work'"
 alias br="pomodoro 'break'"
 alias tf="terraform"
+alias zed="zeditor"

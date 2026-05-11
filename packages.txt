@@ -37,6 +37,7 @@ cachyos-v4-mirrorlist
 cachyos-wallpapers
 cachyos-zsh-config
 cantarell-fonts
+chromium
 chwd
 consolas-font
 cosmic-app-library
@@ -84,6 +85,7 @@ fastfetch
 feh
 ffmpegthumbnailer
 firefox
+fprintd
 fsarchiver
 fwupd
 ghostty
@@ -111,9 +113,6 @@ iwd
 jfsutils
 kubectl
 less
-lib32-mesa
-lib32-opencl-mesa
-lib32-vulkan-radeon
 libdvdcss
 libgsf
 libopenraw
@@ -121,6 +120,7 @@ libva-intel-driver
 limine
 limine-mkinitcpio-hook
 limine-snapper-sync
+linux
 linux-cachyos
 linux-cachyos-headers
 linux-cachyos-lts
