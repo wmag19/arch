@@ -65,6 +65,8 @@ cosmic-wallpapers
 cosmic-workspaces
 cpupower
 cryptsetup
+cups
+cups-filters
 device-mapper
 diffutils
 direnv
@@ -126,6 +128,7 @@ linux-cachyos-headers
 linux-cachyos-lts
 linux-cachyos-lts-headers
 linux-firmware
+linux-lts
 logrotate
 lsb-release
 lsscsi
@@ -187,6 +190,7 @@ starship
 stow
 sudo
 sysfsutils
+system-config-printer
 texinfo
 tree
 ttf-bitstream-vera
