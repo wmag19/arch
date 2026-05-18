@@ -113,6 +113,7 @@ intel-ucode
 iptables
 iwd
 jfsutils
+kate
 kubectl
 less
 libdvdcss
@@ -122,13 +123,11 @@ libva-intel-driver
 limine
 limine-mkinitcpio-hook
 limine-snapper-sync
-linux
 linux-cachyos
 linux-cachyos-headers
 linux-cachyos-lts
 linux-cachyos-lts-headers
 linux-firmware
-linux-lts
 logrotate
 lsb-release
 lsscsi
