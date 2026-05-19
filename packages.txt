@@ -37,7 +37,6 @@ cachyos-v4-mirrorlist
 cachyos-wallpapers
 cachyos-zsh-config
 cantarell-fonts
-chromium
 chwd
 consolas-font
 cosmic-app-library
