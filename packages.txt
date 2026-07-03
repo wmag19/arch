@@ -6,6 +6,7 @@ alsa-utils
 amd-ucode
 ansible
 aspnet-runtime
+autoconf-archive
 awesome-terminal-fonts
 base
 base-devel
@@ -73,6 +74,7 @@ dmidecode
 dmraid
 dnsmasq
 docker
+docker-compose
 dosfstools
 dotnet-sdk
 duf
@@ -97,6 +99,7 @@ github-cli
 glances
 gnome-keyring
 go
+go-tools
 gst-libav
 gst-plugin-pipewire
 gst-plugin-va
@@ -172,6 +175,7 @@ power-profiles-daemon
 pv
 python
 python-defusedxml
+python-docutils
 python-packaging
 rebuild-detector
 reflector
@@ -181,6 +185,7 @@ s-nail
 sg3_utils
 shelly
 smartmontools
+snapd
 snapper
 sof-firmware
 speech-dispatcher
@@ -207,7 +212,6 @@ upower
 usb_modeswitch
 usbutils
 vim
-visual-studio-code-bin
 vlc-plugins-all
 vulkan-intel
 vulkan-nouveau
