@@ -52,7 +52,7 @@ font-family = JetBrains Mono
 window-decoration = false
 background-opacity = 0.97
 background=#1a1c1c
-theme = catpuccin-mocha.conf
+theme = noctalia
 #keybind=ctrl+shift+w=close_surface
 #keybind=ctrl+shift+q=close_window
 confirm-close-surface=false

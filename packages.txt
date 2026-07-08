@@ -6,7 +6,6 @@ alsa-utils
 amd-ucode
 ansible
 aspnet-runtime
-autoconf-archive
 awesome-terminal-fonts
 base
 base-devel
@@ -97,9 +96,10 @@ git
 git-filter-repo
 github-cli
 glances
+gnome-boxes
 gnome-keyring
 go
-go-tools
+grim
 gst-libav
 gst-plugin-pipewire
 gst-plugin-va
@@ -109,6 +109,7 @@ hdparm
 htop
 hwdetect
 hwinfo
+hyprland
 inetutils
 intel-media-driver
 intel-ucode
@@ -116,6 +117,7 @@ iptables
 iwd
 jfsutils
 kate
+kitty
 kubectl
 less
 libdvdcss
@@ -151,6 +153,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+noctalia
 notification-daemon
 noto-fonts
 noto-fonts-cjk
@@ -175,15 +178,16 @@ power-profiles-daemon
 pv
 python
 python-defusedxml
-python-docutils
 python-packaging
 rebuild-detector
 reflector
 ripgrep
 rsync
 s-nail
+satty
 sg3_utils
 shelly
+slurp
 smartmontools
 snapd
 snapper
@@ -211,6 +215,7 @@ unzip
 upower
 usb_modeswitch
 usbutils
+uwsm
 vim
 vlc-plugins-all
 vulkan-intel
@@ -220,9 +225,11 @@ wget
 which
 wireless_tools
 wireplumber
+wl-clipboard
 wpa_supplicant
 xclip
 xdg-desktop-portal-cosmic
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xf86-video-amdgpu
 xf86-video-ati
@@ -230,6 +237,7 @@ xf86-video-nouveau
 xfsprogs
 xl2tpd
 xorg-server
+xorg-xhost
 xorg-xinit
 xorg-xwayland
 yay-bin
