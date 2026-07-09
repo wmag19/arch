@@ -15,4 +15,5 @@ hl.config({
 hl.gesture({ fingers = 4, direction = "horizontal", action = "workspace" })
 hl.gesture({ fingers = 3, direction = "down",       action = "close" })
 hl.gesture({ fingers = 3, direction = "up",         action = "fullscreen" })
-hl.gesture({ fingers = 3, direction = "left", action = "float" })
+hl.gesture({ fingers = 3, direction = "left", action = "float", mode = "float" })
+hl.gesture({ fingers = 3, direction = "right", action = "float", mode = "tile" })
