@@ -189,7 +189,7 @@ pomodoro () {
 export PATH="$HOME/bin:$PATH"
 export KUBE_EDITOR='code --wait'
 export PATH="$HOME/go/bin:$PATH"
-export EDITOR='code --wait'
+export EDITOR='zeditor --wait'
 
 XDG_CONFIG_HOME=/home/will
 

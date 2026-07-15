@@ -74,6 +74,7 @@ dmraid
 dnsmasq
 docker
 docker-compose
+dolphin
 dosfstools
 dotnet-sdk
 duf
