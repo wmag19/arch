@@ -175,6 +175,7 @@ plocate
 plymouth
 poppler-glib
 power-profiles-daemon
+profile-sync-daemon
 pv
 python
 python-defusedxml

@@ -187,7 +187,7 @@ pomodoro () {
 
 # --- My Custom Path ---
 export PATH="$HOME/bin:$PATH"
-export KUBE_EDITOR='code --wait'
+export KUBE_EDITOR='vim'
 export PATH="$HOME/go/bin:$PATH"
 export EDITOR='zeditor --wait'
 
