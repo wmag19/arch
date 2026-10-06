@@ -7,6 +7,7 @@ amd-ucode
 ansible
 aspnet-runtime
 awesome-terminal-fonts
+azure-cli
 base
 base-devel
 bash-completion
@@ -19,6 +20,7 @@ bluez-utils
 btop
 btrfs-assistant
 btrfs-progs
+cachy-update
 cachyos-fish-config
 cachyos-hello
 cachyos-hooks
@@ -37,6 +39,7 @@ cachyos-v4-mirrorlist
 cachyos-wallpapers
 cachyos-zsh-config
 cantarell-fonts
+chromium
 chwd
 consolas-font
 cosmic-app-library
@@ -74,7 +77,6 @@ dmraid
 dnsmasq
 docker
 docker-compose
-dolphin
 dosfstools
 dotnet-sdk
 duf
@@ -107,6 +109,8 @@ gst-plugin-va
 gst-plugins-bad
 gst-plugins-ugly
 hdparm
+helium-browser-bin
+helix
 htop
 hwdetect
 hwinfo
@@ -146,6 +150,7 @@ minikube
 mise
 mkinitcpio
 modemmanager
+mpv
 mtools
 neovim
 netctl
@@ -218,7 +223,6 @@ usb_modeswitch
 usbutils
 uwsm
 vim
-vlc-plugins-all
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
@@ -245,5 +249,5 @@ yay-bin
 yazi
 zathura
 zed
-zen-browser-bin
+zellij
 zoxide

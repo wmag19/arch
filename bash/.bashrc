@@ -118,6 +118,9 @@ fi
 
 eval "$(mise activate bash --shims)" # added by https://mise.run/bash
 
+
+#FZF configuration:
+eval "$(fzf --bash)"
 #Starship configuration:
 eval "$(starship init bash)"
 
@@ -190,6 +193,7 @@ export PATH="$HOME/bin:$PATH"
 export KUBE_EDITOR='vim'
 export PATH="$HOME/go/bin:$PATH"
 export EDITOR='zeditor --wait'
+export PATH="$HOME/.nix-profile/bin:$PATH"
 
 XDG_CONFIG_HOME=/home/will
 
@@ -215,3 +219,7 @@ alias wo="pomodoro 'work'"
 alias br="pomodoro 'break'"
 alias tf="terraform"
 alias zed="zeditor"
+alias lazy="NVIM_APPNAME=lazy nvim"
+alias astro="NVIM_APPNAME=astro nvim"
+
+. "$HOME/.cargo/env"
