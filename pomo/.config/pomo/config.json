@@ -1,0 +1,3 @@
+{
+  "onEvent": ["/bin/sh", "-c","/home/will/scripts/pomo.sh"]
+}

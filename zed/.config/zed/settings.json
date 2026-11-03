@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "font_size": 25.0,
+    "font_family": "JetBrains Mono"
+  },
   "languages": {
     "Go": {
       "show_edit_predictions": false
@@ -31,7 +35,7 @@
     "dock": "left",
   },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
@@ -47,10 +51,10 @@
     "trust_all_worktrees": true,
   },
   "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "buffer_font_size": 18.0,
   "theme": {
-    "mode": "system",
-    "light": "One Light",
+    "mode": "dark",
+    "light": "Noctalia Light Transparent",
     "dark": "One Dark",
   },
 }
